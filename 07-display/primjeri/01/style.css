@@ -15,3 +15,25 @@ p {
 em {
     background-color: #ccf;
 }
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.none {
+    display: none;
+}
+
+.box {
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+}
