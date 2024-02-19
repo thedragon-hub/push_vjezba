@@ -1,51 +1,51 @@
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: Tahoma, sans-serif;
     font-size: 16px;
     color: #333;
-  }
-  h1 {
+}
+
+h1 {
     text-align: center;
-  }
-  
-  /* box */
-  
-  div {
+}
+
+/* box */
+
+div {
     background-color: #f93;
     border: 1px solid #333;
     width: 300px;
     height: 150px;
     margin: 4em auto;
-  }
-  
-  /* transformacije */
-  
-  .translate {
+}
+
+/* transformacije */
+
+.translate {
     -webkit-transform: translate(150px, -20px);
     transform: translate(150px, -20px);
-  }
-  
-  .rotate {
+}
+
+.rotate {
     -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
-  }
-  
-  .scale {
+}
+
+.scale {
     -webkit-transform: scale(0.5, 0.3);
     transform: scale(0.5, 0.3);
-  }
-  
-  .skew {
+}
+
+.skew {
     -webkit-transform: skew(20deg, 15deg);
     transform: skew(20deg, 15deg);
-  }
-  
-  .multiple {
+}
+
+.multiple {
     -webkit-transform: rotate(30deg) scale(0.5, 0.3) skew(20deg, 15deg);
     transform: rotate(30deg) scale(0.5, 0.3) skew(20deg, 15deg);
-  }
-  
+}
